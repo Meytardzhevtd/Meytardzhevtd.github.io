@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    color: #333;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+
+
+header {
+    background-color: #a8d5ba; /* Ваш новый цвет */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%; /* Делаем header на всю ширину экрана */
+    margin: 0; /* Убираем отступы */
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-text {
+    text-align: left;
+}
+
+header h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+header .small-name {
+    font-size: 1em;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+.profile-photo img {
+    width: 150px; /* Увеличиваем ширину */
+    height: 150px; /* Увеличиваем высоту */
+    border-radius: 50%; /* Круглое изображение */
+    border: 3px solid #fff; /* Рамка вокруг фото */
+    object-fit: cover; /* Обрезка фото по кругу */
+}
+
+/* Секции */
+section {
+    margin: 40px 0;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+#skills ul, #experience ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#skills ul li, #experience ul li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #a8d5ba;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
